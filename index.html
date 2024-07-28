@@ -3,11 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Color Changer</title>
     <link href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+    
+    <div class="container  h-screen  flex items-center justify-center flex-col gap-5">
+        <h1 class="text-3xl font-bold  text-black tracking-wide ">COLOR CHANGER</h1>
+        <div class="w-2/3 h-2/3  rounded-lg" id="color-box"></div>
+        <button class="bg-sky-600 hover:bg-sky-700 px-10 py-4 rounded-lg text-white text-lg" id="change-color-btn">Changer</button>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="script.js"></script>
